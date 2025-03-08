@@ -2,13 +2,13 @@
 
 This repository provides a simple Python script for downloading torrents using the libtorrent library.
 
-###Features
+### Features
 
 - Uses libtorrent to download .torrent files.
 - Displays real-time progress updates.
 - Supports DHT for decentralized peer discovery.
 
-###Prerequisites
+### Prerequisites
 
 Ensure you have Python installed on your system. You also need to install libtorrent:
 
@@ -16,7 +16,7 @@ Ensure you have Python installed on your system. You also need to install libtor
 pip install python-libtorrent
 ```
 
-###Usage
+### Usage
 
 Clone this repository:
 
@@ -35,14 +35,14 @@ Run the script:
 python down.py
 ```
 
-##Code Overview
+### Code Overview
 
 - Creates a libtorrent session.
 - Enables DHT for peer discovery.
 - Loads a .torrent file and starts the download.
 - Continuously updates progress until the download is complete.
 
-##Example Output
+### Example Output
 
 ```
 Downloading: example.torrent
@@ -52,14 +52,14 @@ Progress: 100.00% - Peers: 12
 Download complete!
 ```
 
-##Notes
+### Notes
 
 Ensure libtorrent is installed correctly, as some systems may require additional dependencies. Adjust paths in the script before running.
 
-##License
+### License
 
 This project is open-source and available under the MIT License.
 
-##Contributions
+### Contributions
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
