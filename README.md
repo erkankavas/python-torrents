@@ -25,9 +25,9 @@ git clone https://github.com/yourusername/torrent-downloader.git
 cd torrent-downloader
 ```
 
->Update the script with the correct paths:
->Change torrent_path to the location of your .torrent file.
->Modify save_path to specify where you want to save the downloaded files.
+- Update the script with the correct paths:
+- Change torrent_path to the location of your .torrent file.
+- Modify save_path to specify where you want to save the downloaded files.
 
 Run the script:
 
